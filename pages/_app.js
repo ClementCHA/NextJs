@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Container from "../components/Container/Container";
+import "bootstrap/dist/css/bootstrap.css";
 
 function MyApp({ Component, pageProps }) {
   return (

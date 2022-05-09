@@ -1,0 +1,120 @@
+{
+  "englishList": [
+    {
+      "name": "words",
+      "data": [
+        {
+          "en": "house",
+          "fr": "maison"
+        },
+        {
+          "en": "rocket",
+          "fr": "fusée"
+        },
+        {
+          "en": "pen",
+          "fr": "stylo"
+        },
+        {
+          "en": "trouser",
+          "fr": "pantalon"
+        },
+        {
+          "en": "car",
+          "fr": "voiture"
+        },
+        {
+          "en": "pool",
+          "fr": "piscine"
+        }, 
+        {
+          "en": "city",
+          "fr": "ville"
+        },
+        {
+          "en": "sky",
+          "fr": "ciel"
+        }
+      ]
+    }, 
+    {
+      "name": "adjectivs",
+      "data": [
+        {
+          "en": "tall",
+          "fr": "grand"
+        },
+        {
+          "en": "narrow",
+          "fr": "étroit"
+        },
+        {
+          "en": "soft",
+          "fr": "doux"
+        },
+        {
+          "en": "hard",
+          "fr": "dur/difficile"
+        },
+        {
+          "en": "lovely",
+          "fr": "adorable"
+        },
+        {
+          "en": "discret",
+          "fr": "discret"
+        },
+        {
+          "en": "enormous",
+          "fr": "énorme"
+        },
+        {
+          "en": "smart",
+          "fr": "intelligent"
+        },
+        {
+          "en": "dumb",
+          "fr": "idiot"
+        }
+      ]
+    },
+    {
+      "name": "verbs",
+      "data": [
+        {
+          "en": "to have",
+          "fr": "avoir"
+        },
+        {
+          "en": "to be",
+          "fr": "être"
+        },
+        {
+          "en": "to breath",
+          "fr": "respirer"
+        },
+        {
+          "en": "to know",
+          "fr": "savoir"
+        },
+        {
+          "en": "to love",
+          "fr": "aimer"
+        },
+        {
+          "en": "to drive",
+          "fr": "conduire"
+        }, 
+        {
+          "en": "to laugh",
+          "fr": "rigoler"
+        },
+        {
+          "en": "to cry",
+          "fr": "pleurer"
+        }
+      ]
+    }
+      
+  ]
+}

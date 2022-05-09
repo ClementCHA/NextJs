@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { v4 as uuidv4 } from "uuid";
 
 import styles from "../styles/Home.module.css";
 const Home = (props) => {
@@ -14,7 +15,7 @@ const Home = (props) => {
         <table className={styles.tableau}>
           <tbody>
             {props.array.map((el) => (
-              <tr>
+              <tr key={uuidv4()}>
                 <td>{el.en}</td>
                 <td>{el.fr}</td>
               </tr>
