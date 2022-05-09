@@ -1,10 +1,10 @@
 import React from "react";
 
-const contact = (props) => {
+const isr = (props) => {
   return <h1> {props.data.quotes[0].text} </h1>;
 };
 
-export default contact;
+export default isr;
 
 export async function getStaticProps() {
   const quote = await fetch(
@@ -16,7 +16,8 @@ export async function getStaticProps() {
       data,
     },
     revalidate: 20,
-    // That propriety wont refresh before 20 secondes even if we refresh the page
+    //! That propriety wont refresh before 20 secondes even if we refresh the page
+    //! Not with "npm run dev" but after we npm run build & npm run start
   };
 }
 

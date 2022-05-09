@@ -12,11 +12,12 @@ const NavBar = () => {
       <Link href="/blog/article">
         <a>Blog</a>
       </Link>
-      <Link href="/contact">
-        <a>Contact</a>
+      <Link href="/isr">
+        <a>ISR</a>
       </Link>
     </nav>
   );
+  //? ISR = Incremental Static generation
 };
 
 export default NavBar;
