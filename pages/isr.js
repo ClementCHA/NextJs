@@ -20,5 +20,3 @@ export async function getStaticProps() {
     //! Not with "npm run dev" but after we npm run build & npm run start
   };
 }
-
-//

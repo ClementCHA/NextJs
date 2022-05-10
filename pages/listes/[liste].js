@@ -7,6 +7,10 @@ import styles from "../../styles/Home.module.css";
 
 const liste = (props) => {
   const router = useRouter();
+
+  if (!props.listeEnCours) {
+    return <h1> Chargement </h1>;
+  }
   console.log(props);
   return (
     <div className="container">
@@ -35,6 +39,12 @@ export async function getStaticProps(context) {
   const slug = context.params.liste;
   const data = await import("/data/listes.json");
   const listeEnCours = data.englishList.find((list) => list.name === slug);
+  if (!listeEnCours) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       listeEnCours: listeEnCours.data,
@@ -59,5 +69,10 @@ export async function getStaticPaths() {
     ], */
     paths,
     fallback: false,
+    // We can set fallback: true => We don't load ALL the pages, we only load them WHEN we need it
+    // let's imagine a commercial website with million of page, we can load only the best article and
+    // generate after the data
+
+    // We can also have fallback: "blocking" to load date only on server side => Never used
   };
 }
