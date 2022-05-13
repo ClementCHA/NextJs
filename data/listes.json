@@ -26,7 +26,7 @@
         {
           "en": "pool",
           "fr": "piscine"
-        }, 
+        },
         {
           "en": "city",
           "fr": "ville"
@@ -34,9 +34,13 @@
         {
           "en": "sky",
           "fr": "ciel"
+        },
+        {
+          "en": "cock",
+          "fr": "bite"
         }
       ]
-    }, 
+    },
     {
       "name": "adjectivs",
       "data": [
@@ -104,7 +108,7 @@
         {
           "en": "to drive",
           "fr": "conduire"
-        }, 
+        },
         {
           "en": "to laugh",
           "fr": "rigoler"
@@ -115,6 +119,5 @@
         }
       ]
     }
-      
   ]
 }

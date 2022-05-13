@@ -18,6 +18,9 @@ const NavBar = () => {
       <Link href="/cours">
         <a>BTC</a>
       </Link>
+      <Link href="/add">
+        <a>Add (POST)</a>
+      </Link>
     </nav>
   );
   //? ISR = Incremental Static generation
