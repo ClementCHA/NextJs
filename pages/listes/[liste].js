@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 import styles from "../../styles/Home.module.css";
 
-const liste = (props) => {
+const Liste = (props) => {
   const router = useRouter();
 
   if (!props.listeEnCours) {
@@ -32,7 +32,7 @@ const liste = (props) => {
   );
 };
 
-export default liste;
+export default Liste;
 
 export async function getStaticProps(context) {
   //! we use context in props ONLY WHEN we have a "GetStaticPaths"

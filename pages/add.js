@@ -1,6 +1,6 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef } from "react";
 
-const add = () => {
+const Add = () => {
   const enWord = useRef();
   const frWord = useRef();
 
@@ -42,4 +42,4 @@ const add = () => {
   );
 };
 
-export default add;
+export default Add;
